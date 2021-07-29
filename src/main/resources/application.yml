@@ -1,0 +1,16 @@
+tracer.property: I AM THE DEFAULT
+# Server
+server:
+  port: 8060
+# Spring
+spring:
+  # MongoDB connection
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: admin
+      username: root
+      password: root
+      database: products
+
